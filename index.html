@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/mobile-first.css">
+    <link rel="stylesheet" href="styles/media-query.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="topo-header">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo">
+            </div>
+
+            <div class="lupa">
+                <img src="images/lupa.old.svg" alt="Pesquisar">
+            </div>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="lista-nav-bar">
+                <li class="lista-item">
+                    <img src="images/airplane.png" alt="">
+                    <a href="#">Flight</a>
+                </li>
+                <li class="lista-item">
+                    <img src="images/bed.png" alt="">
+                    <a href="#">Hotel</a>
+                </li>
+                <li class="lista-item">
+                    <img src="images/car.png" alt="">
+                    <a href="#">Rental</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <article class="viagem-aviao">
+            <h2>Travel the world with us</h2>
+
+            <form action="cadastro.php" method="get">
+
+                <div class="partida-aviao">
+                    <label for="partida_aviao">From </label><br>
+                    <input type="text" name="" id="partida_aviao" required minlength="2" maxlength="40" placeholder="Departing from">
+                </div>
+
+                <div class="chegada-aviao">
+                    <label for="chegada_aviao">To </label><br>
+                    <input type="text" name="" id="chegada_aviao" required minlength="2" maxlength="40" placeholder="Arriving at">
+                </div>
+
+            </form>
+        </article>
+
+        <article class="viagem-hotel">
+            <h2>Find the best hotels</h2>
+            <p>Book a hotel with us and get the best fares and promotions.</p>
+            <p>We know hotels - we know comfort.</p>
+            <input type="button" value="Search Hotels">
+        </article>
+
+        <article class="viagem-rental">
+            <h2>Best car rental in the world!</h2>
+            <p><strong>DISCOUNT!</strong> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+            <input type="text" name="" id="irental">
+            <input type="button" value="Search Availability">
+        </article>
+
+    </main>
+
+</body>
+</html>

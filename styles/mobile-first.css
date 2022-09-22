@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TOPO DO HEADER */
+
+.topo-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo > img{
+    width: 4.2rem;
+    display: block;
+}
+
+.lupa, .logo{
+    padding: 0.5rem;
+}
+
+.lupa > img{
+    width: 1.9rem;
+    display: block;
+}
+
+/* NAV-BAR DO HEADER */
+
+.nav-bar{
+    background-color: black;
+    font-size: 0.9rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.lista-nav-bar{
+    display: flex;
+    gap: 0.15rem;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.lista-nav-bar li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.lista-nav-bar li{
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+
+.lista-item img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.lista-item{
+    display: flex;
+    gap: 0.38rem;
+    align-items: center;
+}
+
+.lista-nav-bar li:hover{
+    background-color: red;
+}
+
+/* FORMULÁRIO "FROM, TO" */
+.viagem-hotel, .viagem-rental{
+    display: none;
+}
+
+/* VIAGEM DE AVIÃO */
+.viagem-aviao > h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 350;
+    margin-top: 0.6rem;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.partida-aviao{
+    padding: 0.4rem;
+}
+
+#partida-aviao{
+    display: block;
+}
+
+.chegada-aviao{
+    padding: 0.4rem;
+}
