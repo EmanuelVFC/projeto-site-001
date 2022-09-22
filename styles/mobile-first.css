@@ -74,8 +74,17 @@
     background-color: red;
 }
 
+.active{
+    display: block;
+}
+
+/* PRINCIPAL */
+main{
+    background-color: rgb(224, 224, 224);
+}
+
 /* FORMULÁRIO "FROM, TO" */
-.viagem-hotel, .viagem-rental{
+.viagem-aviao, .viagem-hotel, .viagem-rental{
     display: none;
 }
 
@@ -88,15 +97,32 @@
     font-size: 1.1rem;
     text-align: center;
 }
+.viagem-aviao > form, h2{
+    font-family: 'Raleway', sans-serif;
+    padding: 0.8rem;
+    background-color: white;
+}
+
+.partida-aviao > input, .chegada-aviao > input{
+    margin-top: 0.6rem;
+}
 
 .partida-aviao{
-    padding: 0.4rem;
+    margin-bottom: 1rem;
 }
 
-#partida-aviao{
-    display: block;
+.partida-aviao > input, .chegada-aviao > input{
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem;
 }
 
-.chegada-aviao{
-    padding: 0.4rem;
+.botao{
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    background-color: rgb(94, 93, 93);
+    color: white;
+    border: none;
 }
+
+/* VIAGEM HOTEL */
