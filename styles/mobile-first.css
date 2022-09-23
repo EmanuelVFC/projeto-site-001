@@ -80,7 +80,11 @@ main{
 }
 
 /* FORMULÁRIO "FROM, TO" */
-.viagem-aviao, .viagem-hotel, .viagem-rental{
+.viagem-aviao{
+    display: block;
+}
+
+.viagem-hotel, .viagem-rental{
     display: none;
 }
 
