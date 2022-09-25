@@ -372,6 +372,7 @@
     height: 1.8rem;
     border-radius: 0.2rem;
     border: none;
+    padding: 0.4rem;
 }
 
 .botao-ofertas{
@@ -379,4 +380,99 @@
     background-color: #f44336;
     color: white;
     border: none;
+}
+
+/* ÁREA DE CONTATO E MENSAGEM */
+.contato{
+    font-family: 'Raleway', sans-serif;
+}
+
+.contato > h1{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.contato > p{
+    margin: 0.8rem 0;
+}
+
+.item-socials{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.lista-socials{
+    font-size: 1rem;
+}
+
+.lista-socials > li + li{
+    margin-top: 0.4rem;
+}
+
+.contato > form{
+    margin: 1rem 0;
+}
+
+.contato > form > input{
+    height: 2.3rem;
+    width: 100%;
+    margin-bottom: 0.6rem;
+    padding: 0.4rem;
+}
+
+.contato > form > textarea{
+    width: 100%;
+    padding: 0.4rem;
+}
+
+textarea::placeholder, input::placeholder{
+    font-family: 'Raleway', sans-serif;
+}
+
+.botao-contato{
+    padding: 0.9rem;
+    margin-top: 0.5rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.botao-contato:hover{
+    color: black;
+    background-color: #d1d0d0;
+}
+
+/* FOOTER / RODAPÉ */
+.footer{
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer > h3{
+    text-align: center;
+    font-weight: 350;
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+
+.lista-socials-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 0.6rem;
+}
+
+.footer > p{
+    margin: 2rem 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.footer > p > a{
+    text-decoration: underline;
+    color: black;
 }
