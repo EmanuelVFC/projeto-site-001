@@ -25,7 +25,7 @@
 }
 
 .lupa, .logo{
-    padding: 0.5rem;
+    padding: 0.7rem;
 }
 
 .lupa > img{
@@ -55,7 +55,7 @@
 }
 
 .lista-nav-bar li{
-    padding: 0.5rem;
+    padding: 0.7rem;
     transition: 0.3s;
 }
 
@@ -126,7 +126,6 @@ main{
     box-sizing: border-box;
     color: #3B3B3B;
     cursor: pointer;
-    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 600;
@@ -142,28 +141,32 @@ main{
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
-   }
+}
    
 .botao-viagem-aviao:disabled {
-pointer-events: none;
+    pointer-events: none;
 }
 
 .botao-viagem-aviao:hover {
-color: #fff;
-background-color: #1A1A1A;
-box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-transform: translateY(-2px);
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
 }
 
 .botao-viagem-aviao:active {
-box-shadow: none;
-transform: translateY(0);
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.teste{
+    margin-bottom: 1rem;
 }
 
 /* VIAGEM HOTEL */
 .viagem-hotel{
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    padding: 0.5rem;
 }
 
 .viagem-hotel h2{
@@ -182,6 +185,7 @@ transform: translateY(0);
 .viagem-rental{
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    padding: 0.5rem;
 }
 
 .viagem-rental h2{
@@ -218,13 +222,48 @@ transform: translateY(0);
 }
 
 /* CONTEÚDO PRINCIPAL */
-.cinque-terre-imagem img{
-    max-width: 100%;
-    display: block;
+
+.main{
+    margin-top: 1rem;
+}
+
+/* GALERIA DE FOTOS 1 */
+.galeria1{
+    display: grid;
+    gap: 0.6rem;
+    grid-template-columns: auto;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.galeria1 > h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 350;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.galeria1 > h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 350;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container1, .container2, .container3{
     position: relative;
 }
 
-.cinque-terre-texto{
+.galeria1-imagem img{
+    max-width: 100%;
+    display: block;
+}
+
+.galeria1-texto{
     position: absolute;
-    bottom: 1rem;
+    bottom: 0.1rem;
+    padding: 0.6rem;
+    color: rgba(255, 255, 255, 0.644);
+    font-family: 'Raleway', sans-serif;
 }
