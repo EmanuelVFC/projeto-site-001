@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /* DISPLAY MAIORES QUE O CELULAR */
+
+/* DISPLAYS MAIORES QUE 320px E MENORES QUE 768px */
+@media (min-width: 335px) and (max-width: 768px){
+    .galeria1{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
