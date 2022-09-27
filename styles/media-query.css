@@ -26,9 +26,9 @@
     }
 
     .viagem-aviao{
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
 
     .viagem-aviao > form > div > input{
