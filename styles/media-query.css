@@ -24,16 +24,6 @@
     .main{
         margin: 0 auto;
     }
-
-    .viagem-aviao{
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-    }
-
-    .viagem-aviao > form > div > input{
-        width: 70%;
-    }
 }
 
 @media (min-width: 815px){
