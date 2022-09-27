@@ -19,65 +19,63 @@
             </div>
 
             <div class="lupa">
-                <img src="images/lupa.old.svg" alt="Pesquisar">
+                <a href="#"><img src="images/lupa.old.svg" alt="Pesquisar"></a>
             </div>
         </div>
 
-        <nav class="nav-bar">
-            <ul class="lista-nav-bar">
-                <li class="lista-item" onclick="exibir1()">
-                    <img src="images/airplane.png" alt="">
-                    <a id="lista-item-1" href="#">Flight</a>
-                </li>
-                <li class="lista-item" onclick="exibir2()">
-                    <img src="images/bed.png" alt="">
-                    <a href="#">Hotel</a>
-                </li>
-                <li class="lista-item" onclick="exibir3()">
-                    <img src="images/car.png" alt="">
-                    <a href="#">Rental</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="nav-viagens">
+            <nav class="nav-bar">
+                <ul class="lista-nav-bar">
+                    <li class="lista-item" onclick="exibir1()">
+                        <img src="images/airplane.png" alt="">
+                        <a id="lista-item-1" href="#">Flight</a>
+                    </li>
+                    <li class="lista-item" onclick="exibir2()">
+                        <img src="images/bed.png" alt="">
+                        <a href="#">Hotel</a>
+                    </li>
+                    <li class="lista-item" onclick="exibir3()">
+                        <img src="images/car.png" alt="">
+                        <a href="#">Rental</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <article class="viagem-aviao">
-            <h2>Travel the world with us</h2>
+            <article class="viagem-aviao">
+                <h2>Travel the world with us</h2>
+                <form action="cadastro.php" method="get">
+                    <div class="partida-aviao">
+                        <label for="partida_aviao">From </label><br>
+                        <input type="text" name="" id="partida_aviao" required minlength="2" maxlength="40" placeholder="Departing from">
+                    </div>
+                    <div class="chegada-aviao">
+                        <label for="chegada_aviao">To </label><br>
+                        <input type="text" name="" id="chegada_aviao" required minlength="2" maxlength="40" placeholder="Arriving at">
+                    </div>
+                    <button type="submit" class="botao-viagem-aviao">
+                        Search
+                    </button>
+                </form>
+            </article>
+            
+            <article class="viagem-hotel">
+                <h2>Find the best hotels</h2>
+                <p>Book a hotel with us and get the best fares and promotions.</p>
+                <p>We know hotels - we know comfort.</p>
+                <button type="submit" class="botao-viagem-aviao teste">
+                    Search
+                </button>
+            </article>
 
-            <form action="cadastro.php" method="get">
-
-                <div class="partida-aviao">
-                    <label for="partida_aviao">From </label><br>
-                    <input type="text" name="" id="partida_aviao" required minlength="2" maxlength="40" placeholder="Departing from">
-                </div>
-
-                <div class="chegada-aviao">
-                    <label for="chegada_aviao">To </label><br>
-                    <input type="text" name="" id="chegada_aviao" required minlength="2" maxlength="40" placeholder="Arriving at">
-                </div>
-
+            <article class="viagem-rental">
+                <h2>Best car rental in the world!</h2>
+                <p><strong>DISCOUNT!</strong> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+                <input type="text" name="" id="irental" class="botao-texto-rental" placeholder="Rental">
                 <button type="submit" class="botao-viagem-aviao">
                     Search
                 </button>
-            </form>
-        </article>
-
-        <article class="viagem-hotel">
-            <h2>Find the best hotels</h2>
-            <p>Book a hotel with us and get the best fares and promotions.</p>
-            <p>We know hotels - we know comfort.</p>
-            <button type="submit" class="botao-viagem-aviao teste">
-                Search
-            </button>
-        </article>
-
-        <article class="viagem-rental">
-            <h2>Best car rental in the world!</h2>
-            <p><strong>DISCOUNT!</strong> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
-            <input type="text" name="" id="irental" class="botao-texto-rental">
-            <button type="submit" class="botao-viagem-aviao">
-                Search
-            </button>
-        </article>
+            </article>
+        </div>
 
     </header>
 
@@ -87,9 +85,9 @@
 
         <section class="galeria1">
 
-            <div class="imagem1 galeria1-imagem container">
+            <div class="grid-um">
 
-                <div>
+                <div class="imagem1 galeria1-imagem container">
 
                     <div>
                         <img src="images/cinqueterre.jpg" alt="Cinque Terre">
@@ -101,44 +99,43 @@
 
             </div>
 
-            <div class="galeria1-imagem container">
+            <div class="grid-dois">
 
                 <div>
-                    <img src="images/newyork.jpg" alt="New York">
-                </div>
-
-                <div class="galeria1-texto">New York</div>
-
-            </div>
-
-            <div class="galeria1-imagem container">
-
-                <div >
-                    <div>
-                        <img src="images/sanfran.jpg" alt="San Francisco">
+                    <div class="galeria1-imagem container">
+                        <div>
+                            <img src="images/newyork.jpg" alt="New York">
+                        </div>
+                        <div class="galeria1-texto">New York</div>
                     </div>
-                    <div class="galeria1-texto">San Francisco</div>
                 </div>
-
-            </div>
-
-            <div class="galeria1-imagem container">
 
                 <div>
-                    <img src="images/pisa.jpg" alt="Pisa">
+                    <div class="galeria1-imagem container">
+                        <div>
+                            <img src="images/sanfran.jpg" alt="San Francisco">
+                        </div>
+                        <div class="galeria1-texto">San Francisco</div>
+                    </div>
                 </div>
-
-                <div class="galeria1-texto">Pisa</div>
-
-            </div>
-
-            <div class="galeria1-imagem container">
 
                 <div>
-                    <img src="images/paris.jpg" alt="Paris">
+                    <div class="galeria1-imagem container">
+                        <div>
+                            <img src="images/pisa.jpg" alt="Pisa">
+                        </div>
+                        <div class="galeria1-texto">Pisa</div>
+                    </div>
                 </div>
 
-                <div class="galeria1-texto">Paris</div>
+                <div>
+                    <div class="galeria1-imagem container">
+                        <div>
+                            <img src="images/paris.jpg" alt="Paris">
+                        </div>
+                        <div class="galeria1-texto">Paris</div>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -147,25 +144,24 @@
             <h1>Explore Nature</h1>
             <h2>Travel with us and see nature at as front.</h2>
 
-            <div class="card">
-                <div class="card-imagem"><img src="images/ocean.jpg" alt="Ocean"></div>
-
-                <div class="card-infos">
-                    <h3>West Coast, Norway</h3>
-                    <p class="preco">Roundtrip from $79</p>
-                    <p class="parag">Praesent tindicunt sed tellus ut rutrum sed vitae justo.</p>
-                    <a href="#">Buy Tickets</a>
+            <div class="grid-card">
+                <div class="card">
+                    <div class="card-imagem"><img src="images/ocean.jpg" alt="Ocean"></div>
+                    <div class="card-infos">
+                        <h3>West Coast, Norway</h3>
+                        <p class="preco">Roundtrip from $79</p>
+                        <p class="parag">Praesent tindicunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="#">Buy Tickets</a>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card">
-                <div class="card-imagem"><img src="images/mountains.jpg" alt="Moutains"></div>
-
-                <div class="card-infos">
-                    <h3>Mountains, Austria</h3>
-                    <p class="preco">One-way from $39</p>
-                    <p class="parag">Praesent tindicunt sed tellus ut rutrum sed vitae justo.</p>
-                    <a href="#">Buy Tickets</a>
+                <div class="card">
+                    <div class="card-imagem"><img src="images/mountains.jpg" alt="Moutains"></div>
+                    <div class="card-infos">
+                        <h3>Mountains, Austria</h3>
+                        <p class="preco">One-way from $39</p>
+                        <p class="parag">Praesent tindicunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="#">Buy Tickets</a>
+                    </div>
                 </div>
             </div>
         </section>
