@@ -24,6 +24,20 @@
     .main{
         margin: 0 auto;
     }
+
+    .partida-aviao > input, .chegada-aviao > input{
+        width: 23rem;
+        display: flex;
+        margin: 0.6rem auto;
+    }
+
+    .viagem-hotel{
+        text-align: center;
+    }
+
+    .viagem-rental p{
+        text-align: center;
+    }
 }
 
 @media (min-width: 815px){
