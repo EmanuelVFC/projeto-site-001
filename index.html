@@ -27,15 +27,15 @@
             <nav class="nav-bar">
                 <ul class="lista-nav-bar">
                     <li class="lista-item" id="item_um" onclick="exibir1()">
-                        <img src="images/airplane.png" alt="">
-                        <a id="lista-item-1" href="#">Flight</a>
+                        <i class="fa-solid fa-plane"></i>
+                        <a href="#">Flight</a>
                     </li>
                     <li class="lista-item" id="item_dois" onclick="exibir2()">
-                        <img src="images/bed.png" alt="">
+                        <i class="fa-solid fa-hotel"></i>
                         <a href="#">Hotel</a>
                     </li>
                     <li class="lista-item" id="item_tres" onclick="exibir3()">
-                        <img src="images/car.png" alt="">
+                        <i class="fa-solid fa-car"></i>
                         <a href="#">Rental</a>
                     </li>
                 </ul>
@@ -47,14 +47,15 @@
 
                 <form action="cadastro.php" method="get">
 
-                    <div class="partida-aviao">
-                        <label for="partida_aviao">From </label><br>
-                        <input type="text" name="" id="partida_aviao" required minlength="2" maxlength="40" placeholder="Departing from">
-                    </div>
-
-                    <div class="chegada-aviao">
-                        <label for="chegada_aviao">To </label><br>
-                        <input type="text" name="" id="chegada_aviao" required minlength="2" maxlength="40" placeholder="Arriving at">
+                    <div class="container-aviao">
+                        <div class="partida-aviao">
+                            <label for="partida_aviao">From </label>
+                            <input type="text" name="" id="partida_aviao" required minlength="2" maxlength="40" placeholder="Departing from">
+                        </div>
+                        <div class="chegada-aviao">
+                            <label for="chegada_aviao">To </label>
+                            <input type="text" name="" id="chegada_aviao" required minlength="2" maxlength="40" placeholder="Arriving at">
+                        </div>
                     </div>
 
                     <button type="submit" class="botao-viagem-aviao">

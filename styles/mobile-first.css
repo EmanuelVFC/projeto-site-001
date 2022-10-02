@@ -43,35 +43,23 @@
 
 .lista-nav-bar{
     display: flex;
-    gap: 0.15rem;
     list-style: none;
-    justify-content: flex-start;
-}
-
-.lista-nav-bar li a{
-    text-decoration: none;
-    color: white;
-    display: block;
-}
-
-.lista-nav-bar li{
-    padding: 0.7rem;
-    transition: 0.3s;
-}
-
-.lista-item img{
-    width: 0.8rem;
-    height: 0.8rem;
 }
 
 .lista-item{
+    padding: 0.8rem;
     display: flex;
-    gap: 0.38rem;
+    gap: 0.5rem;
     align-items: center;
 }
 
-.lista-nav-bar li:hover{
-    background-color: red;
+.lista-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.lista-item i{
+    color: white;
 }
 
 /* FORMULÁRIO "FROM, TO" */
@@ -86,28 +74,31 @@
 /* VIAGEM DE AVIÃO */
 .viagem-aviao > h2{
     font-family: 'Raleway', sans-serif;
-    font-weight: 350;
-    font-size: 1.1rem;
+    font-weight: 390;
+    font-size: 1.4rem;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    padding: 1.5rem 1rem 0.5rem 1rem;
 }
 
-.viagem-aviao > form, .viagem-aviao > h2{
+.viagem-aviao > form{
     font-family: 'Raleway', sans-serif;
-    padding: 0.8rem;
+    padding: 1rem;
     background-color: white;
+}
+
+.chegada-aviao{
+    margin-top: 1rem;
 }
 
 .partida-aviao > input, .chegada-aviao > input{
     margin-top: 0.6rem;
-    border-radius: 0.6rem;
+    border-radius: 0.2rem;
     border: 0.124em solid #333333;
     width: 100%;
-    height: 2rem;
+    height: 2.5rem;
     padding: 0.5rem;
-}
-
-.partida-aviao{
-    margin-bottom: 1rem;
 }
 
 /* From uiverse.io by @e-coders */
@@ -116,7 +107,7 @@
     appearance: none;
     background-color: transparent;
     border: 0.124em solid #333333;
-    border-radius: 0.9375em;
+    border-radius: 0.4em;
     box-sizing: border-box;
     color: #3B3B3B;
     cursor: pointer;
@@ -126,7 +117,7 @@
     line-height: normal;
     outline: none;
     display: flex;
-    margin: 1.3rem auto;
+    margin: 1.4rem auto;
     padding: 0.7rem 2rem;
     text-align: center;
     text-decoration: none;
@@ -144,16 +135,12 @@
 .botao-viagem-aviao:hover {
     color: #fff;
     background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 10px;
 }
 
 .botao-viagem-aviao:active {
     box-shadow: none;
     transform: translateY(0);
-}
-
-.teste{
-    margin-bottom: 1rem;
 }
 
 /* VIAGEM HOTEL */
@@ -164,10 +151,10 @@
 }
 
 .viagem-hotel h2{
-    font-weight: 350;
+    font-weight: 390;
     margin-top: 0.6rem;
     padding: 0.7875rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -180,30 +167,30 @@
     background-color: white;
     font-family: 'Raleway', sans-serif;
     padding: 0.5rem;
+    text-align: center;
 }
 
 .viagem-rental h2{
-    font-weight: 350;
+    font-weight: 390;
     margin-top: 0.6rem;
     padding: 0.7875rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .viagem-rental p{
     padding: 0.9875rem;
-    max-width: 40ch;
+    max-width: 100ch;
     line-height: 1.35;
     font-size: 0.95rem;
-    word-break: break-all;
 }
 
 .botao-texto-rental{
     margin-top: 0.6rem;
-    border-radius: 0.6rem;
+    border-radius: 0.2rem;
     border: 0.124em solid #333333;
-    height: 2rem;
-    width: 50%;
+    height: 2.5rem;
+    width: 90%;
     display: flex;
     margin: 0 auto;
     padding: 0.5rem;
