@@ -3,7 +3,7 @@
 /* DISPLAY MAIORES QUE O CELULAR */
 
 /* DISPLAYS MAIORES QUE 320px E MENORES QUE 768px */
-@media (min-width: 435px){
+@media (min-width: 480px){
     .grid-dois{
         display: grid;
         grid-template-columns: 1fr 1fr;
