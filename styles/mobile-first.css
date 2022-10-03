@@ -136,6 +136,7 @@
     color: #fff;
     background-color: #1A1A1A;
     box-shadow: rgba(0, 0, 0, 0.2) 0 4px 10px;
+    cursor: pointer;
 }
 
 .botao-viagem-aviao:active {
@@ -383,6 +384,7 @@ body{
 .botao-ofertas:hover{
     background-color: #d1d0d0;
     color: black;
+    cursor: pointer;
 }
 
 /* ÁREA DE CONTATO E MENSAGEM */
@@ -445,6 +447,7 @@ textarea::placeholder, input::placeholder{
 .botao-contato:hover{
     color: black;
     background-color: #d1d0d0;
+    cursor: pointer;
 }
 
 /* FOOTER / RODAPÉ */
@@ -485,4 +488,8 @@ textarea::placeholder, input::placeholder{
 .footer > ul > li > a{
     text-decoration: none;
     color: black;
+}
+
+.lista-socials-footer li a:hover{
+    color: #a7a7a7;
 }
