@@ -50,7 +50,7 @@
     }
 
     .lista-item:hover{
-        background-color: white !important;
+        background-color: #d1d0d0 !important;
         cursor: pointer;
     }
     

@@ -380,6 +380,11 @@ body{
     border: none;
 }
 
+.botao-ofertas:hover{
+    background-color: #d1d0d0;
+    color: black;
+}
+
 /* ÁREA DE CONTATO E MENSAGEM */
 .contato{
     font-family: 'Raleway', sans-serif;
