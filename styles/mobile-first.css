@@ -270,8 +270,12 @@ body{
 
 /* GALERIA DE FOTOS 2 COM OS CARDS */
 .galeria2{
-    gap: 0.5rem;
     font-family: 'Raleway', sans-serif;
+}
+
+.grid-card{
+    display: grid;
+    gap: 0.6rem;
 }
 
 .card{
@@ -316,10 +320,12 @@ body{
 .card-infos > a{
     display: inline-block;
     text-decoration: none;
-    color: black;
-    padding: 0.4rem;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.185);
+    padding: 0.5rem;
     margin: 0.1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .preco{
@@ -334,6 +340,7 @@ body{
 
 .card-infos > a:hover{
     background-color: #d1d0d0;
+    color: black;
 }
 
 /* FORMULÁRIO PARA RECEBER OFERTAS */
